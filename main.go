@@ -28,3 +28,16 @@ func displayVariablesAndTypes(elements ...interface{}) {
 		fmt.Printf("Variable #%d: %v (%s)\n", index+1, element, reflect.TypeOf(element))
 	}
 }
+
+/*
+
+Output:
+
+Variable #1: 5 (int)
+Variable #2: 356.58461235649 (float64)
+Variable #3: Hello World! (string)
+Variable #4: { 0} (main.Car)
+Variable #5: {red 0} (main.Car)
+Variable #6: true (bool)
+
+*/
